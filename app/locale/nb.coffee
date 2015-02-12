@@ -55,11 +55,11 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     items: "Utstyr" # Tooltip on item shop button from /play
     unlock: "Lås opp" # For purchasing items and heroes
     confirm: "Bekreft"
-    owned: "Eid" # For items you own
+    owned: "Eier" # For items you own
     locked: "Låst"
     purchasable: "Kan kjøpes" # For a hero you unlocked but haven't purchased
     available: "Tilgjengelig"
-    skills_granted: "Gir Evnene" # Property documentation details
+    skills_granted: "Gir følgende evner" # Property documentation details
     heroes: "Helter" # Tooltip on hero shop button from /play
     achievements: "Prestasjoner" # Tooltip on achievement list button from /play
     account: "Konto" # Tooltip on account button from /play
