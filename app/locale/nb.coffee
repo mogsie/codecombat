@@ -361,7 +361,7 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     leaderboard: "Topplisten"
     view_other_solutions: "Sen andre løsninger"
     scores: "Poeng"
-#    top_players: "Top Players by"
+    top_players: "Beste spillere etter"
     day: "I dag"
     week: "Denne uken"
     all: "All tid"
