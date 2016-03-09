@@ -4,7 +4,7 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     no_ie: "CodeCombat kjører ikke på IE8 eller eldre. Beklager!" # Warning that only shows up in IE8 and older
     no_mobile: "CodeCombat ble ikke designet for mobile enheter, og vil kanskje ikke virke!" # Warning that shows up on mobile devices
     play: "Spill" # The big play button that opens up the campaign view.
-#    play_campaign_version: "Play Campaign Version" # Shows up under big play button if you only play /courses
+    play_campaign_version: "Spill kampanjeversjon" # Shows up under big play button if you only play /courses
     old_browser: "Å nei, nettleseren din er for gammel til å kjøre CodeCombat. Beklager!" # Warning that shows up on really old Firefox/Chrome/Safari
     old_browser_suffix: "Du kan prøve likevel, men det vil kanskje ikke virke."
     ipad_browser: "Dårlige nyheter: CodeCombat kjører ikke i nettleseren på iPad. Gode nyheter: iPad appen vår venter bare på godkjenning av Apple."
@@ -142,7 +142,7 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     level_difficulty: "Vanskelighetsgrad: "
 #    play_classroom_version: "Play Classroom Version" # Choose a level in campaign version that you also can play in one of your courses
     campaign_beginner: "Begynner Felttog"
-    awaiting_levels_adventurer_prefix: "Vi lanserer fem nye brett hver uke" # {change}
+    awaiting_levels_adventurer_prefix: "Vi lanserer nye brett hver uke"
     awaiting_levels_adventurer: "Registrer deg som Eventyrer"
     awaiting_levels_adventurer_suffix: "for å få spille nye brett før alle andre."
     adjust_volume: "Juster lydnivå"
@@ -316,7 +316,7 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     victory_title_suffix: " Ferdig"
     victory_sign_up: "Tegn deg på for Oppdateringer"
     victory_sign_up_poke: "Vil du ha siste nytt på epost? Opprett en gratis konto, så vil vi holde deg oppdatert!"
-    victory_rate_the_level: "Bedøm nivået: " # {change}
+    victory_rate_the_level: "Hvor morsomt var dette brettet?"
     victory_return_to_ladder: "Tilbake til stige"
     victory_saving_progress: "Lagrer framskritt"
     victory_go_home: "Gå Hjem"
@@ -430,7 +430,7 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     auth_caption: "Lagre din fremgang."
 
   leaderboard:
-    view_other_solutions: "Sen andre løsninger" # {change}
+    view_other_solutions: "Se ledertavla"
     scores: "Poeng"
     top_players: "Toppspillere etter"
     day: "I dag"
@@ -469,9 +469,9 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
 
   subscribe:
     comparison_blurb: "Spiss dine kunnskaper med et CodeCombat abonnement!"
-    feature1: "60+ grunnleggende brett fordelt på 4 verdener" # {change}
-    feature2: "7 kraftfulle <strong>nye helter</strong> med unike ferdigheter!" # {change}
-    feature3: "30+ bonusbrett" # {change}
+    feature1: "110+ brett fordelt på 4 verdener"
+    feature2: "10 <strong>nye helter</strong> med unike ferdigheter!"
+    feature3: "80+ bonusbrett"
     feature4: "<strong>{{gems}} bonusjuveler</strong> hver måned!"
     feature5: "Videoveiledninger"
     feature6: "Premium e-poststøtte"
@@ -497,10 +497,10 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     parent_email_sent: "E-post sendt!"
     parent_email_title: "Hva er din forelders e-postadresse?"
     parents: "For foreldre"
-    parents_title: "Barnet ditt vil lære å kode" # {change}
-    parents_blurb1: "Med CodeCombat vil dine barn lære seg å skrive ekte kode. De begynner med enkle kommandoer og går videre til mer avanserte emner."
+    parents_title: "Kjære forelder: Barnet ditt holder på å lære seg å kode. Vil du hjelpe i fortsettelsen?"
+    parents_blurb1: "Med CodeCombat vil ditt barn lære seg å skrive ekte kode. Det begynner med enkle kommandoer og går videre til mer avanserte emner."
     parents_blurb1a: "Dataprogrammering er en essensiell kunnskap som ditt barn unektelig vil bruke som voksen. Innen 2020 vil grunnleggende dataferdigheter kreves av 77% av arbeidsplassene, og det er høy etterspørsel etter dataingeniører verden over. Visste du at informatikk er den høyst-betalte universitetsutdannelsen?"
-    parents_blurb2: "For USD {{price}} pr mnd, vil de få nye utfordringer hver uke og personlig e-poststøtte fra profesjonelle programmerere." # {change}
+    parents_blurb2: "For USD {{price}} pr mnd, vil ditt barn få nye utfordringer hver uke og personlig e-poststøtte fra profesjonelle programmerere."
     parents_blurb3: "Ingen risiko: 100% pengene tilbake-garanti, kun et klikk for å si opp abonnementet."
     payment_methods: "Betalingsmetoder"
     payment_methods_title: "Aksepterte betalingsmetoder"
@@ -1354,7 +1354,7 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
     tutorial_skip: "Hopp over opplæring"
     tutorial_not_sure: "Usikker på hva som foregår?"
     tutorial_play_first: "Spill opplæringsspillet først."
-    simple_ai: "Enkel AI" # {change}
+    simple_ai: "Enkel datamaskin"
     warmup: "Oppvarming"
     friends_playing: "Venner som spiller"
     log_in_for_friends: "Logg inn for å spille med vennene dine"
@@ -1442,9 +1442,9 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
 #    retrying: "Server error, retrying."
 #    success: "Successfully paid. Thanks!"
 
-#  account_prepaid:
-#    purchase_code: "Purchase a Subscription Code"
-#    purchase_code1: "Subscription Codes can be redeemed to add premium subscription time to one or more CodeCombat accounts."
+  account_prepaid:
+    purchase_code: "Kjøp en abonnementskode"
+#    purchase_code1: "Abonnementskoder kan innløses for å legge til betalt abonnementstid til en eller flere CodeCombat-kontoer."
 #    purchase_code2: "Each CodeCombat account can only redeem a particular Subscription Code once."
 #    purchase_code3: "Subscription Code months will be added to the end of any existing subscription on the account."
 #    users: "Users"
@@ -1466,21 +1466,21 @@ module.exports = nativeDescription: "Norsk Bokmål", englishDescription: "Norweg
 
   loading_error:
     could_not_load: "Feil ved lasting fra server"
-    connection_failure: "Tilkobling feilet." # {change}
+    connection_failure: "Tilkobling feilet"
 #    connection_failure_desc: "It doesn’t look like you’re connected to the internet! Check your network connection and then reload this page."
 #    login_required: "Login Required"
 #    login_required_desc: "You need to be logged in to access this page."
     unauthorized: "Du må være pålogget. Har du informasjonskapsler (cookies) skrudd på?"
-    forbidden: "Du har ikke tilgang" # {change}
+    forbidden: "Ikke tilgang"
 #    forbidden_desc: "Oh no, there’s nothing we can show you here! Make sure you’re logged into the correct account, or visit one of the links below to get back to programming!"
-    not_found: "Ikke funnet." # {change}
+    not_found: "Ikke funnet."
 #    not_found_desc: "Hm, there’s nothing here. Visit one of the following links to get back to programming!"
     not_allowed: "Metoden er ikke tillat"
-    timeout: "Tidsavbrudd på server" # {change}
+    timeout: "Tidsavbrudd på server"
     conflict: "Ressurskonflikt."
     bad_input: "Feil i inndata"
     server_error: "Serverfeil."
-    unknown: "Ukjent feil." # {change}
+    unknown: "Ukjent feil"
 #    error: "ERROR"
 #    general_desc: "Something went wrong, and it’s probably our fault. Try waiting a bit and then refreshing the page, or visit one of the following links to get back to programming!"
 
